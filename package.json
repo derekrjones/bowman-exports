@@ -1,0 +1,23 @@
+{
+  "name": "bowman-exports",
+  "version": "0.0.0",
+  "description": "plugin for Bowman that finds exposed globals and sets the export for requiring with browserify",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "lodash": "^3.0.0",
+    "q": "^1.1.2",
+    "jsdom": "^1.0.3"
+  },
+  "peerDependencies": {
+    "bowman": "*"
+  },
+  "keywords": [
+    "bowman",
+    "bowmanplugin"
+  ],
+  "author": "Derek Jones <contact.derekjones@gmail.com>",
+  "license": "MIT"
+}
